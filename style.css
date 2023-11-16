@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    box-sizing: border-box;
+    box-shadow: inset;
+    display: flex;
+
+}
+
+.logo img {
+    height: 50px;
+    /* width: 100px; */
+    padding: 7px 30px 10px;
+    display: flex;
+}
+
+.list ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    justify-content: flex-end;
+    color: black;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.list {
+    display: flex;
+    justify-content: flex-end;
+    height: 200px;
+}
+
+.hero {
+    background-color: white;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 48px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 60px;
+
+
+}
+
+.h3 {
+    font-family: 'Segoe UI';
+    font-size: 24px;
+    text-align: center;
+}
+
+.bt {
+    background-color: #00b6d1;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+    text-decoration: solid;
+    border-color: #00b6d1;
+    cursor: pointer;
+
+}
+
+.side , small {
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.side a {
+    text-decoration: none;
+    color: black;
+}
+.text{
+    display: flex;
+    padding-top: 20px;
+}
+.sideimg {
+    margin-top: 10px;
+    gap: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    /* height: 70px; */
+    /* background-size: initial;
+    background-position: left center; */
+    /* background-image: url(https://www.ultraedit.com/wp-content/uploads/2022/11/UE.png); */
+    /* padding-top: 15px!important; */
+    /* padding-bottom: 15px!important; */
+    /* padding-left: 80px!important; */
+}
+
+.items {
+    font-family: sans-serif;
+}
+
+.itemname {
+    text-align: center;
+    padding-bottom: 36px;
+    font-weight: 700;
+    /* margin: 10px; */
+    background-color: #f9f9f9;
+    padding-right: 14px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    border-radius: 10px;
+    padding-top: 20px;
+
+}
+small{
+    font-size: 70%;
+}
+
+.btn {
+    padding: 10px;
+    display: flex;
+    margin: 20px;
+    
+}
+
+.btnblue {
+    display: flex;
+    padding: 14px 16px;
+    background-color: #00b6d1;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btngreen {
+    display: flex;
+    padding: 14px 16px;
+    background: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btnblue:hover {
+    background-color: #00d0f0;
+}
+
+.btngreen:hover {
+    background: #43f743;
+}
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
